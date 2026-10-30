@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title">
+  <title id="title">Typo Strike — ilustrasi mini game mengetik</title>
+  <defs>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#2453F0"/>
+    </pattern>
+    <pattern id="dots-light" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.8" fill="#FFFCF5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="#15130F"/>
+  <rect width="1200" height="800" fill="url(#dots)" opacity="0.16"/>
+  <rect x="0" y="0" width="1200" height="250" fill="url(#dots-light)" opacity="0.06"/>
+
+  <path d="M0 690 L210 600 M0 640 L170 565 M990 190 L1200 95 M1000 245 L1160 185" stroke="#FFFCF5" stroke-width="7" stroke-linecap="round" opacity="0.35"/>
+
+  <g transform="translate(610 330)">
+    <path d="M20 -270 L-108 20 L-20 20 L-62 250 L126 -70 L30 -70 Z" fill="#F5C84B" stroke="#FFFCF5" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M6 -198 L-62 2 L-4 2 L-30 142" fill="none" stroke="#15130F" stroke-width="7" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- key A -->
+  <g transform="translate(120 250) rotate(-8 90 90)">
+    <rect x="12" y="12" width="176" height="176" fill="#15130F"/>
+    <rect x="0" y="0" width="176" height="176" rx="12" fill="#FFFCF5" stroke="#FFFCF5" stroke-width="8"/>
+    <rect x="0" y="0" width="176" height="176" rx="12" fill="none" stroke="#15130F" stroke-width="7"/>
+    <text x="88" y="124" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="86" font-weight="900" fill="#15130F">A</text>
+    <path d="M18 146 H158" stroke="#2453F0" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- key S -->
+  <g transform="translate(300 462) rotate(7 90 90)">
+    <rect x="12" y="12" width="180" height="180" fill="#F5C84B"/>
+    <rect x="0" y="0" width="180" height="180" rx="12" fill="#2453F0" stroke="#FFFCF5" stroke-width="7"/>
+    <text x="90" y="126" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="88" font-weight="900" fill="#FFFCF5">S</text>
+  </g>
+
+  <!-- key D -->
+  <g transform="translate(824 246) rotate(10 80 80)">
+    <rect x="12" y="12" width="160" height="160" fill="#15130F"/>
+    <rect x="0" y="0" width="160" height="160" rx="12" fill="#F5C84B" stroke="#FFFCF5" stroke-width="7"/>
+    <text x="80" y="112" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="78" font-weight="900" fill="#15130F">D</text>
+  </g>
+
+  <!-- enter key -->
+  <g transform="translate(700 590) rotate(-5 150 55)">
+    <rect x="12" y="12" width="300" height="112" fill="#2453F0"/>
+    <rect x="0" y="0" width="300" height="112" rx="10" fill="#FFFCF5" stroke="#FFFCF5" stroke-width="7"/>
+    <rect x="0" y="0" width="300" height="112" rx="10" fill="none" stroke="#15130F" stroke-width="6"/>
+    <text x="150" y="66" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="28" letter-spacing="4" fill="#15130F">ENTER</text>
+    <path d="M40 84 H260" stroke="#2453F0" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(70 70)">
+    <rect x="8" y="8" width="198" height="86" fill="#F5C84B"/>
+    <rect x="0" y="0" width="198" height="86" fill="#FFFCF5" stroke="#FFFCF5" stroke-width="7"/>
+    <rect x="0" y="0" width="198" height="86" fill="none" stroke="#15130F" stroke-width="5"/>
+    <text x="18" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="2" fill="#585145">TIME LEFT</text>
+    <text x="18" y="70" font-family="Arial Black, Arial, sans-serif" font-size="38" fill="#15130F">00:42</text>
+    <path d="M144 28 V62 M144 28 L166 42 V62" stroke="#2453F0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <g transform="translate(852 60) rotate(4)">
+    <rect x="0" y="0" width="278" height="125" rx="62" fill="#FFFCF5" stroke="#15130F" stroke-width="7"/>
+    <text x="139" y="76" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="44" font-weight="900" fill="#2453F0">TYPE!</text>
+    <path d="M54 122 L34 162 L92 132" fill="#FFFCF5" stroke="#15130F" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(430 94) rotate(-6)">
+    <rect x="0" y="0" width="216" height="58" fill="#2453F0" stroke="#FFFCF5" stroke-width="6"/>
+    <text x="108" y="37" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="20" letter-spacing="2" fill="#FFFCF5">COMBO x12</text>
+  </g>
+
+  <g transform="translate(1024 500) rotate(8)">
+    <rect x="0" y="0" width="122" height="122" fill="#F5C84B" stroke="#FFFCF5" stroke-width="6"/>
+    <text x="61" y="52" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="18" fill="#15130F">+50</text>
+    <text x="61" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#15130F">POINTS</text>
+  </g>
+
+  <g transform="translate(66 690)">
+    <path d="M0 0 H310" stroke="#FFFCF5" stroke-width="5" stroke-linecap="round" opacity="0.3"/>
+    <text x="0" y="40" font-family="monospace" font-size="16" letter-spacing="3" fill="#FFFCF5" opacity="0.65">NO LIBRARY · JUST DOM &amp; TIMING</text>
+  </g>
+</svg>

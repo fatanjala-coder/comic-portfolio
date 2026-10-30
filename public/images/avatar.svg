@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar komik pelajar developer</title>
+  <desc id="desc">Ilustrasi seorang pelajar berkacamata dengan hoodie biru dan laptop, dikelilingi elemen komik.</desc>
+  <defs>
+    <pattern id="dots" width="11" height="11" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="2.5" r="1.7" fill="#15130F"/>
+    </pattern>
+    <pattern id="dots-light" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#FFFCF5" opacity="0.5"/>
+    </pattern>
+    <clipPath id="halo">
+      <circle cx="320" cy="342" r="282"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="320" cy="342" r="282" fill="#2453F0" stroke="#15130F" stroke-width="7"/>
+  <g clip-path="url(#halo)">
+    <rect x="0" y="0" width="640" height="680" fill="url(#dots)" opacity="0.3"/>
+    <path d="M-20 210 L170 150 M-20 250 L130 200 M520 120 L680 60 M560 160 L700 110" stroke="#FFFCF5" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <g transform="translate(64 128) rotate(-10)">
+    <path d="M0 -30 L9 -9 L31 0 L9 9 L0 31 L-9 9 L-31 0 L-9 -9 Z" fill="#F5C84B" stroke="#15130F" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(554 205) rotate(12)">
+    <path d="M0 -20 L6 -6 L21 0 L6 6 L0 21 L-6 6 L-21 0 L-6 -6 Z" fill="#FFFCF5" stroke="#15130F" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- neck -->
+  <path d="M276 447 L276 563 C276 579 298 592 320 592 C342 592 364 579 364 563 L364 447 Z" fill="#E8BC97" stroke="#15130F" stroke-width="8" stroke-linejoin="round"/>
+
+  <!-- ears -->
+  <ellipse cx="207" cy="333" rx="17" ry="31" fill="#F2D3B3" stroke="#15130F" stroke-width="7"/>
+  <ellipse cx="433" cy="333" rx="17" ry="31" fill="#F2D3B3" stroke="#15130F" stroke-width="7"/>
+  <path d="M203 324 C210 324 212 332 208 340" fill="none" stroke="#15130F" stroke-width="5" stroke-linecap="round"/>
+  <path d="M437 324 C430 324 428 332 432 340" fill="none" stroke="#15130F" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- head -->
+  <path d="M210 286 C210 196 258 150 322 150 C388 150 434 198 432 286 L430 360 C428 446 382 500 320 500 C258 500 212 446 210 360 Z" fill="#F2D3B3" stroke="#15130F" stroke-width="8" stroke-linejoin="round"/>
+
+  <!-- hair -->
+  <path d="M198 320 C190 216 236 132 326 132 C420 132 454 208 444 324 C434 276 414 248 390 230 C368 264 302 278 244 254 C226 280 210 298 198 320 Z" fill="#15130F" stroke="#15130F" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M228 214 C258 168 310 154 354 166" fill="none" stroke="#4F4A42" stroke-width="7" stroke-linecap="round"/>
+  <path d="M388 202 C410 230 420 260 420 292" fill="none" stroke="#4F4A42" stroke-width="6" stroke-linecap="round"/>
+  <path d="M250 250 C274 264 306 268 336 260" fill="none" stroke="#4F4A42" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- eyebrows -->
+  <path d="M238 294 Q266 280 296 294" fill="none" stroke="#15130F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M348 294 Q378 280 406 294" fill="none" stroke="#15130F" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- glasses -->
+  <circle cx="272" cy="329" r="49" fill="#CBD8FF" fill-opacity="0.35" stroke="#15130F" stroke-width="8"/>
+  <circle cx="374" cy="329" r="49" fill="#CBD8FF" fill-opacity="0.35" stroke="#15130F" stroke-width="8"/>
+  <path d="M320 329 H326" stroke="#15130F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M223 321 L208 314" stroke="#15130F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M423 321 L438 314" stroke="#15130F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M250 309 L268 303" stroke="#FFFCF5" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <path d="M352 309 L370 303" stroke="#FFFCF5" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- eyes -->
+  <circle cx="272" cy="336" r="6.5" fill="#15130F"/>
+  <circle cx="374" cy="336" r="6.5" fill="#15130F"/>
+  <circle cx="274" cy="333" r="2" fill="#FFFCF5"/>
+  <circle cx="376" cy="333" r="2" fill="#FFFCF5"/>
+
+  <!-- nose + mouth -->
+  <path d="M322 352 C312 374 317 383 330 383" fill="none" stroke="#15130F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M288 410 Q320 438 354 408" fill="none" stroke="#15130F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M352 408 Q360 408 363 402" fill="none" stroke="#15130F" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- freckles -->
+  <g fill="#B77A59" opacity="0.65">
+    <circle cx="238" cy="380" r="3"/><circle cx="250" cy="390" r="2.6"/><circle cx="258" cy="375" r="2.2"/>
+    <circle cx="398" cy="380" r="3"/><circle cx="386" cy="390" r="2.6"/><circle cx="378" cy="375" r="2.2"/>
+  </g>
+
+  <!-- hood -->
+  <path d="M232 607 C246 642 280 658 320 658 C360 658 394 642 408 607 C392 570 358 556 320 556 C282 556 248 570 232 607 Z" fill="#1737AE" stroke="#15130F" stroke-width="9" stroke-linejoin="round"/>
+
+  <!-- torso -->
+  <path d="M108 820 C114 704 170 638 252 604 L320 646 L388 604 C470 638 526 704 532 820 Z" fill="#2453F0" stroke="#15130F" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M252 604 C270 634 292 646 320 646 C348 646 370 634 388 604" fill="none" stroke="#15130F" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- shirt -->
+  <path d="M276 616 L320 706 L364 616 L344 602 L320 638 L296 602 Z" fill="#F5C84B" stroke="#15130F" stroke-width="7" stroke-linejoin="round"/>
+
+  <!-- drawstrings -->
+  <path d="M296 640 L288 704" stroke="#FFFCF5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M344 640 L352 704" stroke="#FFFCF5" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="287" cy="710" r="7" fill="#FFFCF5" stroke="#15130F" stroke-width="4"/>
+  <circle cx="353" cy="710" r="7" fill="#FFFCF5" stroke="#15130F" stroke-width="4"/>
+
+  <!-- hoodie pockets -->
+  <path d="M216 742 L266 724 M424 742 L374 724" stroke="#15130F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M232 790 L300 772 M408 790 L340 772" stroke="#15130F" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- laptop -->
+  <g>
+    <rect x="158" y="650" width="324" height="162" rx="14" fill="#15130F"/>
+    <rect x="172" y="664" width="296" height="126" rx="4" fill="#CBD8FF" stroke="#FFFCF5" stroke-width="4"/>
+    <rect x="188" y="680" width="92" height="12" fill="#2453F0"/>
+    <rect x="188" y="702" width="140" height="8" fill="#15130F" opacity="0.55"/>
+    <rect x="188" y="720" width="112" height="8" fill="#15130F" opacity="0.55"/>
+    <rect x="188" y="738" width="156" height="8" fill="#15130F" opacity="0.35"/>
+    <rect x="356" y="680" width="94" height="66" fill="#F5C84B" stroke="#15130F" stroke-width="3"/>
+    <path d="M372 730 L386 708 L400 720 L418 694 L434 730" fill="none" stroke="#15130F" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="408" cy="694" r="8" fill="#FFFCF5" stroke="#15130F" stroke-width="3"/>
+    <text x="188" y="773" font-family="monospace" font-size="17" font-weight="bold" fill="#15130F">&gt; npm run dev</text>
+    <path d="M136 812 L504 812 L532 838 L108 838 Z" fill="#15130F"/>
+  </g>
+
+  <!-- floating sticker -->
+  <g transform="translate(468 566) rotate(7)">
+    <rect x="-4" y="-30" width="146" height="60" rx="4" fill="#F5C84B" stroke="#15130F" stroke-width="6"/>
+    <text x="69" y="4" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="17" fill="#15130F">HELLO!</text>
+    <path d="M18 30 L30 47 L42 30" fill="#F5C84B" stroke="#15130F" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+</svg>

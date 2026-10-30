@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title">
+  <title id="title">Kasirku — ilustrasi dashboard kasir</title>
+  <defs>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#15130F"/>
+    </pattern>
+    <pattern id="dots-light" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="2.5" r="1.6" fill="#FFFCF5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="#E5DAC4"/>
+  <circle cx="170" cy="160" r="170" fill="#2453F0" stroke="#15130F" stroke-width="8"/>
+  <circle cx="170" cy="160" r="170" fill="url(#dots-light)" opacity="0.22"/>
+  <rect x="880" y="560" width="250" height="180" fill="url(#dots)" opacity="0.18"/>
+
+  <!-- dashboard -->
+  <g transform="rotate(-1 450 400)">
+    <rect x="106" y="142" width="716" height="530" rx="7" fill="#15130F"/>
+    <rect x="90" y="126" width="716" height="530" rx="7" fill="#FFFCF5" stroke="#15130F" stroke-width="9"/>
+
+    <path d="M94 132 H802 V212 H94 Z" fill="#2453F0"/>
+    <circle cx="126" cy="172" r="9" fill="#F5C84B"/>
+    <circle cx="154" cy="172" r="9" fill="#FFFCF5"/>
+    <text x="190" y="180" font-family="Arial Black, Arial, sans-serif" font-size="20" letter-spacing="2" fill="#FFFCF5">KASIRKU / DASHBOARD</text>
+    <rect x="678" y="150" width="94" height="42" fill="#FFFCF5" stroke="#15130F" stroke-width="4"/>
+    <text x="725" y="177" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#15130F">SHIFT 01</text>
+
+    <!-- sidebar -->
+    <rect x="104" y="226" width="126" height="398" fill="#15130F"/>
+    <g fill="#FFFCF5">
+      <rect x="124" y="252" width="86" height="34" fill="#F5C84B"/>
+      <text x="167" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#15130F">KASIR</text>
+      <text x="130" y="330" font-family="Arial, sans-serif" font-size="12">Produk</text>
+      <text x="130" y="368" font-family="Arial, sans-serif" font-size="12">Riwayat</text>
+      <text x="130" y="406" font-family="Arial, sans-serif" font-size="12">Laporan</text>
+      <rect x="120" y="438" width="94" height="2" opacity="0.3"/>
+      <text x="130" y="476" font-family="Arial, sans-serif" font-size="12">Pengaturan</text>
+    </g>
+
+    <!-- summary cards -->
+    <g stroke="#15130F" stroke-width="5">
+      <rect x="254" y="226" width="168" height="102" fill="#FFFCF5"/>
+      <rect x="438" y="226" width="168" height="102" fill="#FFFCF5"/>
+      <rect x="622" y="226" width="150" height="102" fill="#F5C84B"/>
+    </g>
+    <text x="272" y="254" font-family="Arial, sans-serif" font-size="12" fill="#585145">PENDAPATAN</text>
+    <text x="272" y="296" font-family="Arial Black, Arial, sans-serif" font-size="26" fill="#15130F">Rp 1,2jt</text>
+    <text x="456" y="254" font-family="Arial, sans-serif" font-size="12" fill="#585145">TRANSAKSI</text>
+    <text x="456" y="296" font-family="Arial Black, Arial, sans-serif" font-size="26" fill="#15130F">48</text>
+    <text x="640" y="254" font-family="Arial, sans-serif" font-size="12" fill="#15130F">RATA-RATA</text>
+    <text x="640" y="296" font-family="Arial Black, Arial, sans-serif" font-size="24" fill="#15130F">Rp 25k</text>
+
+    <!-- chart -->
+    <rect x="254" y="354" width="334" height="270" fill="#FFFCF5" stroke="#15130F" stroke-width="5"/>
+    <text x="274" y="386" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#585145">PENJUALAN MINGGU INI</text>
+    <path d="M278 570 H560" stroke="#15130F" stroke-width="4"/>
+    <g>
+      <rect x="292" y="500" width="38" height="70" fill="#CBD8FF" stroke="#15130F" stroke-width="4"/>
+      <rect x="344" y="470" width="38" height="100" fill="#CBD8FF" stroke="#15130F" stroke-width="4"/>
+      <rect x="396" y="520" width="38" height="50" fill="#CBD8FF" stroke="#15130F" stroke-width="4"/>
+      <rect x="448" y="430" width="38" height="140" fill="#2453F0" stroke="#15130F" stroke-width="4"/>
+      <rect x="500" y="482" width="38" height="88" fill="#CBD8FF" stroke="#15130F" stroke-width="4"/>
+    </g>
+    <path d="M300 454 L360 420 L414 446 L468 386 L528 408" fill="none" stroke="#F5C84B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#15130F">
+      <circle cx="300" cy="454" r="5"/><circle cx="360" cy="420" r="5"/><circle cx="414" cy="446" r="5"/><circle cx="468" cy="386" r="5"/><circle cx="528" cy="408" r="5"/>
+    </g>
+
+    <!-- product list -->
+    <rect x="606" y="354" width="166" height="270" fill="#FFFCF5" stroke="#15130F" stroke-width="5"/>
+    <text x="622" y="384" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#585145">PRODUK</text>
+    <g>
+      <circle cx="638" cy="420" r="15" fill="#F5C84B" stroke="#15130F" stroke-width="3"/>
+      <rect x="662" y="410" width="74" height="7" fill="#15130F"/>
+      <rect x="662" y="424" width="48" height="6" fill="#585145"/>
+      <circle cx="638" cy="472" r="15" fill="#2453F0" stroke="#15130F" stroke-width="3"/>
+      <rect x="662" y="462" width="66" height="7" fill="#15130F"/>
+      <rect x="662" y="476" width="54" height="6" fill="#585145"/>
+      <circle cx="638" cy="524" r="15" fill="#CBD8FF" stroke="#15130F" stroke-width="3"/>
+      <rect x="662" y="514" width="72" height="7" fill="#15130F"/>
+      <rect x="662" y="528" width="44" height="6" fill="#585145"/>
+      <rect x="622" y="574" width="134" height="30" fill="#2453F0" stroke="#15130F" stroke-width="4"/>
+      <text x="689" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFCF5">+ TAMBAH</text>
+    </g>
+  </g>
+
+  <!-- receipt -->
+  <g transform="rotate(2 1000 390)">
+    <path d="M944 530 H1070 L1070 548 L1086 530 L1086 548 L1102 530 L1102 548 L1118 530 L1118 548 L1118 700 L944 700 Z" fill="#15130F"/>
+    <path d="M932 518 H1058 L1058 536 L1074 518 L1074 536 L1090 518 L1090 536 L1106 518 L1106 536 L1106 688 L932 688 Z" fill="#FFFCF5" stroke="#15130F" stroke-width="7" stroke-linejoin="round"/>
+    <text x="1019" y="558" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="24" letter-spacing="3" fill="#15130F">STRUK</text>
+    <text x="1019" y="580" text-anchor="middle" font-family="monospace" font-size="12" fill="#585145">#TRX-0048 / 21:07</text>
+    <path d="M954 598 H1084" stroke="#15130F" stroke-width="3" stroke-dasharray="6 5"/>
+    <g font-family="monospace" font-size="12" fill="#585145">
+      <text x="954" y="622">Kopi susu</text><text x="1084" y="622" text-anchor="end">18.000</text>
+      <text x="954" y="646">Roti bakar</text><text x="1084" y="646" text-anchor="end">15.000</text>
+      <text x="954" y="670">Air mineral</text><text x="1084" y="670" text-anchor="end">5.000</text>
+    </g>
+    <path d="M954 682 H1084" stroke="#15130F" stroke-width="3"/>
+    <text x="954" y="706" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#15130F">TOTAL</text>
+    <text x="1084" y="706" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="17" fill="#15130F">Rp 38.000</text>
+    <g fill="#15130F">
+      <rect x="960" y="724" width="4" height="30"/><rect x="970" y="724" width="2" height="30"/>
+      <rect x="978" y="724" width="6" height="30"/><rect x="990" y="724" width="3" height="30"/>
+      <rect x="1000" y="724" width="2" height="30"/><rect x="1008" y="724" width="7" height="30"/>
+      <rect x="1022" y="724" width="3" height="30"/><rect x="1032" y="724" width="5" height="30"/>
+      <rect x="1044" y="724" width="2" height="30"/><rect x="1052" y="724" width="6" height="30"/>
+      <rect x="1064" y="724" width="4" height="30"/>
+    </g>
+    <text x="1019" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#585145">TERIMA KASIH · SEMOGA HARI MU BAIK</text>
+  </g>
+
+  <g transform="translate(846 90) rotate(9)">
+    <circle cx="0" cy="0" r="54" fill="#F5C84B" stroke="#15130F" stroke-width="6"/>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="24" fill="#15130F">Rp</text>
+  </g>
+
+  <g transform="translate(70 640) rotate(-5)">
+    <rect x="0" y="0" width="190" height="58" fill="#FFFCF5" stroke="#15130F" stroke-width="6"/>
+    <text x="95" y="36" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="17" fill="#15130F">CEPAT &amp; RAPI</text>
+  </g>
+</svg>

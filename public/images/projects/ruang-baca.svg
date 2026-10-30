@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title">
+  <title id="title">Ruang Baca — ilustrasi katalog buku</title>
+  <defs>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#15130F"/>
+    </pattern>
+    <pattern id="dots-light" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.8" fill="#FFFCF5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="#F2EBDD"/>
+  <circle cx="1010" cy="250" r="300" fill="#2453F0" stroke="#15130F" stroke-width="8"/>
+  <circle cx="1010" cy="250" r="300" fill="url(#dots-light)" opacity="0.22"/>
+  <circle cx="120" cy="120" r="54" fill="#F5C84B" stroke="#15130F" stroke-width="7"/>
+  <rect x="60" y="640" width="210" height="120" fill="url(#dots)" opacity="0.18"/>
+  <path d="M1045 585 L1145 585 M1085 545 L1145 545 M1095 625 L1175 625" stroke="#15130F" stroke-width="7" stroke-linecap="round" opacity="0.35"/>
+
+  <g transform="rotate(-1 600 420)">
+    <rect x="118" y="166" width="980" height="530" rx="6" fill="#15130F"/>
+    <rect x="100" y="148" width="980" height="530" rx="6" fill="#FFFCF5" stroke="#15130F" stroke-width="10"/>
+
+    <path d="M105 158 H1075 V238 H105 Z" fill="#15130F"/>
+    <circle cx="148" cy="198" r="10" fill="#F5C84B"/>
+    <circle cx="180" cy="198" r="10" fill="#2453F0"/>
+    <circle cx="212" cy="198" r="10" fill="#FFFCF5"/>
+    <rect x="250" y="178" width="560" height="40" rx="20" fill="#FFFCF5" opacity="0.18"/>
+    <text x="278" y="205" font-family="monospace" font-size="18" fill="#FFFCF5" opacity="0.8">ruangbaca.local/catalog</text>
+    <path d="M1000 186 L1020 186 M1000 198 L1020 198 M1000 210 L1020 210" stroke="#FFFCF5" stroke-width="4" stroke-linecap="round"/>
+
+    <text x="158" y="304" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="3" fill="#1737AE">LIBRARY / CATALOG</text>
+    <text x="154" y="376" font-family="Arial Black, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="-3" fill="#15130F">RUANG</text>
+    <text x="154" y="446" font-family="Arial Black, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="-3" fill="#2453F0">BACA</text>
+    <path d="M158 466 H446" stroke="#15130F" stroke-width="5"/>
+    <text x="158" y="504" font-family="Arial, sans-serif" font-size="19" fill="#585145">Temukan buku berikutnya,</text>
+    <text x="158" y="531" font-family="Arial, sans-serif" font-size="19" fill="#585145">dari rak yang tak pernah habis.</text>
+
+    <g transform="translate(158 568)">
+      <rect x="0" y="0" width="204" height="48" fill="#2453F0" stroke="#15130F" stroke-width="5"/>
+      <text x="102" y="31" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="15" letter-spacing="2" fill="#FFFCF5">JELAJAHI RAK</text>
+    </g>
+    <g transform="translate(380 568)">
+      <rect x="0" y="0" width="104" height="48" fill="#F5C84B" stroke="#15130F" stroke-width="5"/>
+      <text x="52" y="31" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="15" letter-spacing="1" fill="#15130F">BARU</text>
+    </g>
+
+    <!-- book grid -->
+    <g stroke="#15130F" stroke-width="6">
+      <rect x="560" y="276" width="196" height="162" fill="#2453F0"/>
+      <rect x="780" y="276" width="196" height="162" fill="#F5C84B"/>
+      <rect x="560" y="462" width="196" height="162" fill="#FFFCF5"/>
+      <rect x="780" y="462" width="196" height="162" fill="#15130F"/>
+    </g>
+    <circle cx="658" cy="336" r="33" fill="#F5C84B" stroke="#15130F" stroke-width="5"/>
+    <path d="M608 400 H708 M608 418 H664" stroke="#FFFCF5" stroke-width="8" stroke-linecap="round"/>
+    <path d="M832 310 L862 350 L832 390 L802 350 Z" fill="#2453F0" stroke="#15130F" stroke-width="5"/>
+    <path d="M818 414 H938 M818 432 H878" stroke="#15130F" stroke-width="8" stroke-linecap="round"/>
+    <rect x="610" y="500" width="52" height="76" fill="#2453F0" stroke="#15130F" stroke-width="4"/>
+    <rect x="672" y="486" width="42" height="90" fill="#F5C84B" stroke="#15130F" stroke-width="4"/>
+    <path d="M840 500 H916 M840 520 H892" stroke="#FFFCF5" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="878" cy="568" r="26" fill="#2453F0" stroke="#FFFCF5" stroke-width="4"/>
+
+    <path d="M1000 276 V438 M1018 276 V438 M1036 276 V402 M1054 276 V402" stroke="#FFFCF5" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+    <path d="M1000 520 H1044 M1000 538 H1044" stroke="#15130F" stroke-width="7" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(1074 92) rotate(8)">
+    <path d="M0 0 H64 V96 L32 76 L0 96 Z" fill="#FFFCF5" stroke="#15130F" stroke-width="7" stroke-linejoin="round"/>
+    <circle cx="32" cy="30" r="8" fill="#2453F0"/>
+  </g>
+
+  <g transform="translate(86 642) rotate(-4)">
+    <rect x="-8" y="-32" width="194" height="64" fill="#F5C84B" stroke="#15130F" stroke-width="6"/>
+    <text x="89" y="7" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="22" letter-spacing="1" fill="#15130F">BUKU PILIHAN!</text>
+  </g>
+
+  <path d="M40 290 H120 M20 330 H100 M50 370 H110" stroke="#15130F" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+</svg>

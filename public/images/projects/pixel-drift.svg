@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title">
+  <title id="title">Pixel Drift — ilustrasi gim balap piksel</title>
+  <defs>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#FFFCF5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="#2453F0"/>
+  <rect width="1200" height="520" fill="url(#dots)" opacity="0.16"/>
+
+  <circle cx="962" cy="178" r="96" fill="#F5C84B" stroke="#15130F" stroke-width="8"/>
+  <path d="M946 118 H978 M946 154 H978 M946 190 H978 M946 226 H978" stroke="#15130F" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+
+  <g fill="#FFFCF5">
+    <rect x="150" y="110" width="8" height="8"/><rect x="210" y="160" width="6" height="6"/>
+    <rect x="310" y="90" width="9" height="9"/><rect x="420" y="140" width="6" height="6"/>
+    <rect x="520" y="80" width="7" height="7"/><rect x="690" y="120" width="9" height="9"/>
+    <rect x="770" y="60" width="6" height="6"/><rect x="1080" y="130" width="8" height="8"/>
+  </g>
+
+  <path d="M0 430 L180 330 L330 430 L470 350 L610 455 L760 360 L920 455 L1080 340 L1200 430 V520 H0 Z" fill="#15130F"/>
+  <path d="M180 330 L210 360 L150 360 Z M470 350 L500 382 L440 382 Z M760 360 L790 390 L730 390 Z" fill="#FFFCF5" opacity="0.65"/>
+
+  <g fill="#15130F">
+    <rect x="110" y="392" width="22" height="100"/>
+    <path d="M88 392 C88 350 154 350 154 392 Z"/>
+    <rect x="1040" y="380" width="24" height="120"/>
+    <path d="M1010 380 C1010 330 1094 330 1094 380 Z"/>
+  </g>
+
+  <path d="M280 800 L920 800 L700 500 L500 500 Z" fill="#15130F"/>
+  <path d="M302 800 L898 800 L696 510 L504 510 Z" fill="none" stroke="#FFFCF5" stroke-width="5" stroke-dasharray="14 20" opacity="0.5"/>
+  <g fill="#F5C84B">
+    <rect x="594" y="520" width="12" height="40"/>
+    <rect x="588" y="590" width="24" height="55"/>
+    <rect x="578" y="690" width="44" height="72"/>
+  </g>
+
+  <g>
+    <path d="M280 540 H420 M240 585 H380 M300 630 H400" stroke="#FFFCF5" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+    <path d="M800 550 H950 M820 600 H980 M790 650 H920" stroke="#FFFCF5" stroke-width="8" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- pixel car -->
+  <g>
+    <rect x="398" y="512" width="400" height="118" fill="#F5C84B" stroke="#15130F" stroke-width="9"/>
+    <rect x="500" y="438" width="214" height="92" fill="#F5C84B" stroke="#15130F" stroke-width="9"/>
+    <rect x="528" y="458" width="74" height="48" fill="#CBD8FF" stroke="#15130F" stroke-width="6"/>
+    <rect x="616" y="458" width="74" height="48" fill="#CBD8FF" stroke="#15130F" stroke-width="6"/>
+    <rect x="398" y="560" width="400" height="24" fill="#2453F0" stroke="#15130F" stroke-width="7"/>
+    <rect x="418" y="502" width="60" height="20" fill="#FFFCF5" stroke="#15130F" stroke-width="5"/>
+    <rect x="730" y="502" width="46" height="20" fill="#FFFCF5" stroke="#15130F" stroke-width="5"/>
+    <rect x="784" y="540" width="22" height="32" fill="#FFFCF5" stroke="#15130F" stroke-width="5"/>
+    <rect x="454" y="620" width="84" height="66" fill="#15130F"/>
+    <rect x="474" y="638" width="44" height="30" fill="#FFFCF5"/>
+    <rect x="660" y="620" width="84" height="66" fill="#15130F"/>
+    <rect x="680" y="638" width="44" height="30" fill="#FFFCF5"/>
+    <rect x="392" y="610" width="28" height="20" fill="#15130F"/>
+    <rect x="776" y="610" width="28" height="20" fill="#15130F"/>
+  </g>
+
+  <g transform="translate(58 56)">
+    <rect x="12" y="12" width="244" height="104" fill="#15130F"/>
+    <rect x="0" y="0" width="244" height="104" fill="#FFFCF5" stroke="#15130F" stroke-width="7"/>
+    <text x="18" y="30" font-family="monospace" font-size="17" font-weight="bold" letter-spacing="3" fill="#585145">SCORE</text>
+    <text x="18" y="78" font-family="monospace" font-size="44" font-weight="bold" letter-spacing="2" fill="#15130F">0240</text>
+    <rect x="176" y="40" width="42" height="28" fill="#F5C84B" stroke="#15130F" stroke-width="4"/>
+    <text x="197" y="60" text-anchor="middle" font-family="monospace" font-size="15" font-weight="bold" fill="#15130F">x3</text>
+  </g>
+
+  <g transform="translate(930 48)">
+    <rect x="0" y="0" width="206" height="54" fill="#F5C84B" stroke="#15130F" stroke-width="6"/>
+    <text x="103" y="35" text-anchor="middle" font-family="monospace" font-size="18" font-weight="bold" fill="#15130F">LEVEL 03</text>
+  </g>
+
+  <g transform="translate(848 704) rotate(-3)">
+    <rect x="0" y="0" width="280" height="56" fill="#15130F" stroke="#FFFCF5" stroke-width="5"/>
+    <text x="140" y="35" text-anchor="middle" font-family="monospace" font-size="19" font-weight="bold" letter-spacing="2" fill="#F5C84B">PRESS SPACE</text>
+  </g>
+
+  <g fill="#FFFCF5">
+    <rect x="40" y="710" width="56" height="14"/>
+    <rect x="108" y="710" width="56" height="14"/>
+    <rect x="176" y="710" width="56" height="14"/>
+    <rect x="40" y="736" width="56" height="14" fill="#F5C84B"/>
+    <rect x="108" y="736" width="56" height="14"/>
+  </g>
+</svg>
